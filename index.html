@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>color tool</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Color Lighten/Darken</h1>
+    </div>
+    <label for="hex">Color (Hex)</label>
+    <input type="text" id="hexInput" name="hex" placeholder="#000000" />
+
+    <label for="slider" id="sliderText">0%</label>
+    <input
+      type="range"
+      min="0"
+      max="100"
+      value="0"
+      class="slider"
+      id="slider"
+      name="slider"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
